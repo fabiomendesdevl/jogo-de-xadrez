@@ -1,14 +1,14 @@
 package application;
 
-import tabuleiro.jogo.Tabuleiro;
+import xadrez.PartidaXadrez;
 
 public class Program {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Tabuleiro tab = new Tabuleiro(8, 8);
+		PartidaXadrez part = new PartidaXadrez();
 		
-		System.out.println(tab);
+		UI.printTabuleiro(part.getPecas());
 	}
 
 }
